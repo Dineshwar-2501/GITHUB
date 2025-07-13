@@ -38,3 +38,5 @@ AFTER EDITING A CLONED REPO (create a repo in github)
 git remote set-url origin http://github.com/Dineshwar-2501/[repo name]
 git branch -M main
 git push -u origin main
+
+Account change in VS code - Windows -> Credentials Manager -> Windows Credentials -> github -> remove
