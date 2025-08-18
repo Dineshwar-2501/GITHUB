@@ -39,4 +39,34 @@ git remote set-url origin http://github.com/Dineshwar-2501/[repo name]
 git branch -M main
 git push -u origin main
 
+Remote Login
+-- FIRST TIME--
+Step 1: git config --global user.name "Your Name"
+Step 2: git config --global user.email "Your Email"
+
+( CREATE new  Repository in Github)
+
+Step 3: git init
+Step 4: git remote add origin <remote_repository_URL>
+Step 5: git branch -M main
+Step 6: git add .
+Step 7: git commit -m "Your Message"
+Step 8: git push origin main
+
+-- SECOND TIME ONWARDS --
+( CREATE new  Repository in Github)
+Step 1: git init
+Step 2: git remote add origin <remote_repository_URL>
+Step 3: git branch -M main
+Step 4: git add .
+Step 5: git commit -m "Your Message"
+Step 6: git push origin main
+
+--After any Change in code --
+
+Step 1: git add .
+Step 2: git commit -m "Your Message"
+Step 3: git push origin main
+
+
 Account change in VS code - Windows -> Credentials Manager -> Windows Credentials -> github -> remove
