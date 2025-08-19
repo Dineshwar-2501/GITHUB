@@ -28,6 +28,7 @@ To add crlf code to github                          :        git config --global
 To avoid crlf code to full project                  :        git config --global core.autocrlf false
 To undo commit and changes                          :        git reset --hard HEAD~1
 To undo only commit                                 :        git reset --soft HEAD~1  
+reset the git add .                                 :        git reset
 
 CONFIG:-
 git config --global user.name "Your Name"
