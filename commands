@@ -8,7 +8,7 @@ Set Up Remote                                       :        git remote add orig
 Push Changes to Remote                              :        git push -u origin master
 Clone a repository                                  :        git clone <repository_URL>
 Clone a repository of a certain file                :        git clone <repository_URL> <directory_name>
-Check Repository Status                             :        git status
+Check Branch Status                                 :        git status
 Commit Changes                                      :        git commit -m "Commit message"
 View Commit History                                 :        git log
 Create a New Branch                                 :        git branch <branch_name>
